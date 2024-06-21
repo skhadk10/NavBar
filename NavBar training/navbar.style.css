@@ -1,0 +1,70 @@
+body {
+  font-family: Roboto, Arial;
+  margin: 0 0 0 0;
+}
+
+.navmenu {
+  background-color: red;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  height: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-nav {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.middle-nav {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+
+  
+}
+
+.search {
+  height: 40px;
+padding-left: 30px;
+  border: none;
+  border-radius: 30px;
+  
+
+  display: flex;
+  flex: 1;
+  margin-right: 100px;
+}
+
+.search::placeholder{
+ 
+ font-size: 20px;
+ font-weight: 500;
+}
+
+.right-nav {
+ width: 300px;
+ display: flex;
+ justify-content: space-around;
+
+}
+
+.login-link{
+  
+
+}
+
+.signup-link{
+
+}
+
+.delivery-link{
+
+}
